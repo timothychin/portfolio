@@ -162,6 +162,7 @@ Intro
     .intro header h2 {
       background: #0d2c40;
       background-size: 49%;
+      font-size: 300%;
       width: 70%;
       height: 11em;
       padding: 1em 0.5em 0 0.5em;
@@ -212,7 +213,7 @@ Intro
   @media (max-width: 70em) {
     .intro .summary {
       width: 100%;
-      height: 5em;
+      height: auto;
       padding: 5% 1em 5% 1em;
     }
   }
@@ -360,8 +361,7 @@ Main
   }
   @media (max-width: 53em) {
     .main {
-      background: #f6efe5;
-      top: 0;
+      top: -38em;
       padding: 0;
     }
   }
@@ -378,12 +378,6 @@ Main
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  }
-  @media (max-width: 70em) {
-    
-  }
-  @media (max-width: 53em) {
-    
   }
 .main .explanation a {
   color: white;

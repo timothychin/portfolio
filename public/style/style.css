@@ -385,6 +385,9 @@ Main
   @media (max-width: 53em) {
     
   }
+.main .explanation a {
+  color: white;
+}
 .main .explanation p {
   width: 90%;
 }

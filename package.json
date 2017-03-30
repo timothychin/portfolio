@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothychin/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothychin/portfolio/issues"
+  },
+  "homepage": "https://github.com/timothychin/portfolio#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
+  }
+}
